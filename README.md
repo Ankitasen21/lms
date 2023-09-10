@@ -35,4 +35,3 @@ For building and running the application you need:
 ![Authors](https://github.com/mehmetpekdemir/Library-Management-System/blob/master/Photo/Authors.png)
 ![Categories](https://github.com/mehmetpekdemir/Library-Management-System/blob/master/Photo/Categories.png)
 ![Publishers](https://github.com/mehmetpekdemir/Library-Management-System/blob/master/Photo/Publishers.png)
-# lms
