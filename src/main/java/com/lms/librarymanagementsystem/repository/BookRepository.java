@@ -1,11 +1,11 @@
-package com.mehmetpekdemir.librarymanagementsystem.repository;
+package com.lms.librarymanagementsystem.repository;
 
 import java.util.List;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 
-import com.mehmetpekdemir.librarymanagementsystem.entity.Book;
+import com.lms.librarymanagementsystem.entity.Book;
 
 public interface BookRepository extends JpaRepository<Book, Long> {
 

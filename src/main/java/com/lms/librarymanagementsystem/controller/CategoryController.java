@@ -1,4 +1,4 @@
-package com.mehmetpekdemir.librarymanagementsystem.controller;
+package com.lms.librarymanagementsystem.controller;
 
 import java.util.List;
 
@@ -9,8 +9,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import com.mehmetpekdemir.librarymanagementsystem.entity.Category;
-import com.mehmetpekdemir.librarymanagementsystem.service.CategoryService;
+import com.lms.librarymanagementsystem.entity.Category;
+import com.lms.librarymanagementsystem.service.CategoryService;
 
 @Controller
 public class CategoryController {

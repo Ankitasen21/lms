@@ -1,4 +1,4 @@
-package com.mehmetpekdemir.librarymanagementsystem.controller;
+package com.lms.librarymanagementsystem.controller;
 
 import java.util.List;
 
@@ -11,11 +11,11 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import com.mehmetpekdemir.librarymanagementsystem.entity.Book;
-import com.mehmetpekdemir.librarymanagementsystem.service.AuthorService;
-import com.mehmetpekdemir.librarymanagementsystem.service.BookService;
-import com.mehmetpekdemir.librarymanagementsystem.service.CategoryService;
-import com.mehmetpekdemir.librarymanagementsystem.service.PublisherService;
+import com.lms.librarymanagementsystem.entity.Book;
+import com.lms.librarymanagementsystem.service.AuthorService;
+import com.lms.librarymanagementsystem.service.BookService;
+import com.lms.librarymanagementsystem.service.CategoryService;
+import com.lms.librarymanagementsystem.service.PublisherService;
 
 @Controller
 public class BookController {

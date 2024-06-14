@@ -1,4 +1,4 @@
-package com.mehmetpekdemir.librarymanagementsystem.service.impl;
+package com.lms.librarymanagementsystem.service.impl;
 
 import java.util.List;
 
@@ -6,10 +6,10 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.mehmetpekdemir.librarymanagementsystem.entity.Publisher;
-import com.mehmetpekdemir.librarymanagementsystem.exception.NotFoundException;
-import com.mehmetpekdemir.librarymanagementsystem.repository.PublisherRepository;
-import com.mehmetpekdemir.librarymanagementsystem.service.PublisherService;
+import com.lms.librarymanagementsystem.entity.Publisher;
+import com.lms.librarymanagementsystem.exception.NotFoundException;
+import com.lms.librarymanagementsystem.repository.PublisherRepository;
+import com.lms.librarymanagementsystem.service.PublisherService;
 
 @Service
 public class PublisherServiceImpl implements PublisherService {

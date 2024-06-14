@@ -1,4 +1,4 @@
-package com.mehmetpekdemir.librarymanagementsystem;
+package com.lms.librarymanagementsystem;
 
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
@@ -6,11 +6,11 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration;
 import org.springframework.context.annotation.Bean;
 
-import com.mehmetpekdemir.librarymanagementsystem.entity.Author;
-import com.mehmetpekdemir.librarymanagementsystem.entity.Book;
-import com.mehmetpekdemir.librarymanagementsystem.entity.Category;
-import com.mehmetpekdemir.librarymanagementsystem.entity.Publisher;
-import com.mehmetpekdemir.librarymanagementsystem.service.BookService;
+import com.lms.librarymanagementsystem.entity.Author;
+import com.lms.librarymanagementsystem.entity.Book;
+import com.lms.librarymanagementsystem.entity.Category;
+import com.lms.librarymanagementsystem.entity.Publisher;
+import com.lms.librarymanagementsystem.service.BookService;
 
 @SpringBootApplication(exclude = SecurityAutoConfiguration.class)
 public class LibrarymanagementsystemApplication {

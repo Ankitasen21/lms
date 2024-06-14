@@ -1,8 +1,8 @@
-package com.mehmetpekdemir.librarymanagementsystem.repository;
+package com.lms.librarymanagementsystem.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.mehmetpekdemir.librarymanagementsystem.entity.Category;
+import com.lms.librarymanagementsystem.entity.Category;
 
 public interface CategoryRepository extends JpaRepository<Category, Long> {
 

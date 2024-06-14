@@ -1,8 +1,8 @@
-package com.mehmetpekdemir.librarymanagementsystem.service;
+package com.lms.librarymanagementsystem.service;
 
 import java.util.List;
 
-import com.mehmetpekdemir.librarymanagementsystem.entity.Author;
+import com.lms.librarymanagementsystem.entity.Author;
 
 public interface AuthorService {
 
